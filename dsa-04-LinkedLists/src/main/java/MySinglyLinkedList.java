@@ -59,11 +59,11 @@ public class MySinglyLinkedList {
        // Do delete operation
         if (ptr1==head){
             head=ptr1.next;
-            ptr1.next=null;
+            ptr1.next=null; //this breaks connection between
             size--;
         }else if(ptr1==tail){
             tail=prev;
-            prev.next=null;
+            prev.next=null; ////this breaks connection between
             size--;
         } else {
             prev.next=ptr1.next;

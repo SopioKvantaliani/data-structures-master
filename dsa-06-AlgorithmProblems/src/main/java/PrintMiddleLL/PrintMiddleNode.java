@@ -13,7 +13,7 @@ public class PrintMiddleNode {
         Node a=sll.head;
         Node b=sll.head;
            // iterate over the linked list
-        while(b!=sll.tail && b.next!=sll.tail){
+        while(b!=sll.tail && b.next!=sll.tail){ //if this is not the case continue jumping, iteration
             a=a.next; // single jump
             b=b.next.next;// double jump
         }
