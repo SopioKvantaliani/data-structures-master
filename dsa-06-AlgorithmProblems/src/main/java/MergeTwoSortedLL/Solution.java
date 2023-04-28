@@ -1,6 +1,7 @@
 package MergeTwoSortedLL;
 
 public class Solution {
+
     public ListNode mergeTwoLists(ListNode curr1, ListNode curr2) {
         // create a dummy head Node;
         ListNode tempHead=new ListNode();
